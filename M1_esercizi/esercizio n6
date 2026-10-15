@@ -1,10 +1,10 @@
-1.  FIX: modificato il nome della classe (è stato corretto il nome della classe, che non corrispon‐
-deva al file)
-2. aggiunto il file .gitignore (è stato aggiunto il file .gitignore per escludere la car‐
-tella bin)
-3. aggiunta procedura di esecuzione al file README (nel README è stata aggiunta la procedura di esecuzione da
-terminale)
-4. rimossa la cartella bin (è stata rimossa la cartella bin, finita nel repository
-per errore)
-5. aggiunta differenza tra git e gitHub al file degli appunti"ho aggiunto quella cosa che mancava nel file degli appunti sulla differenza fra Git
-e GitHub perché ieri non l'avevo scritta"
+1.  FIX: modificato il nome della classe 
+Difetto: “modifiche” è generico, non dice cosa è stato modificato né perché.
+2. aggiunto il file .gitignore 
+Difetto: “asd” è privo di significato, non descrive né l’azione né il motivo.
+3. aggiunta procedura di esecuzione al file README 
+Difetto: “aggiornamento README” non inizia con un verbo e non dice cosa è stato aggiornato (si limita a dire dove).
+4. rimossa la cartella bin 
+Difetto: “fix” è vago e in inglese, non dice cosa è stato sistemato né perché.
+5. aggiunta differenza tra git e gitHub al file degli appunti
+ Difetto: il messaggio originale era troppo lungo e raccontava la storia personale (“ho aggiunto”, “ieri non l’avevo scritta”) invece di descrivere solo la modifica.
