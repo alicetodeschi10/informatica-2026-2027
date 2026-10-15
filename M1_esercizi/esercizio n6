@@ -1,0 +1,10 @@
+1.  FIX: modificato il nome della classe (è stato corretto il nome della classe, che non corrispon‐
+deva al file)
+2. aggiunto il file .gitignore (è stato aggiunto il file .gitignore per escludere la car‐
+tella bin)
+3. aggiunta procedura di esecuzione al file README (nel README è stata aggiunta la procedura di esecuzione da
+terminale)
+4. rimossa la cartella bin (è stata rimossa la cartella bin, finita nel repository
+per errore)
+5. aggiunta differenza tra git e gitHub al file degli appunti"ho aggiunto quella cosa che mancava nel file degli appunti sulla differenza fra Git
+e GitHub perché ieri non l'avevo scritta"
