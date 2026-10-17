@@ -1,0 +1,15 @@
+Language Support for Java by Red Hat: Fornisce il supporto per l'intellisense, la navigazione del codice, il refactoring e la formattazione per Java.   
+
+Debugger for Java: Consente il debug delle applicazioni Java all'interno di VS Code.   
+
+Test Runner for Java: Permette di eseguire e gestire i test unitari (JUnit).   
+
+Maven for Java: Gestisce i progetti Maven e le dipendenze.   
+
+Project Manager for Java: Aiuta a gestire la struttura dei progetti Java.   
+
+App Server for Java: Gestisce i server applicativi (opzionale/supporto). 
+
+Se disinstallassi l'Extension Pack ma lasciassi il JDK, riuscirei ancora a compilare ed eseguire un programma Java da riga di comando, perché il motore di compilazione è il JDK (javac e java).
+Perderei però gli strumenti di supporto di VS Code, come l'autocompletamento avanzato e il debug grafico.
+Nel caso opposto, con l'Extension Pack ma senza JDK, non potrei compilare né eseguire nulla, perché mancherebbe il compilatore effettivo: le estensioni da sole sono solo il cruscotto.  
