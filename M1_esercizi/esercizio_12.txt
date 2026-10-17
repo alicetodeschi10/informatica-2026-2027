@@ -1,0 +1,9 @@
+Il file .gitignore da solo non ha fatto sparire la cartella bin perché funziona solo sui file non ancora salvati in Git.
+
+Siccome l'avevo già caricata prima con un commit, Git continuava a seguirla e la ignorava.
+
+Per toglierla da GitHub ho dovuto usare il comando git rm -r --cached bin.
+
+Questo comando cancella la cartella solo dal controllo versione di Git, senza eliminarla dal computer.
+
+Così la cartella bin non si vede più su GitHub, ma sul mio PC c'è ancora
