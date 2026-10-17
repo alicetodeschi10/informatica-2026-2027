@@ -1,0 +1,13 @@
+Traduzione:
+L'invio non è riuscito perché il repository remoto contiene del lavoro che non è presente sulla tua postazione locale. Questo accade solitamente a causa di un aggiornamento remoto fatto da un'altra sorgente. Ti conviene integrare le modifiche remote prima di inviare nuovamente
+
+comandi fatti per risolvere:
+git pull
+
+(modifica manuale del README.md per unire i testi)
+
+git add README.md
+
+git commit -m "Risolto conflitto README.md unendo le modifiche"
+
+git push
