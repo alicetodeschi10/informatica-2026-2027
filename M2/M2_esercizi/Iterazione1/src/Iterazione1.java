@@ -15,6 +15,7 @@ public class Iterazione1 {
             usernameInserito = tastiera.nextLine();
             passwordInserita = tastiera.nextLine();
         }
-        System.out.println("Login effettuato con successo" );
+        System.out.println("Login effettuato con successo");
+        tastiera.close();
     }
 }
