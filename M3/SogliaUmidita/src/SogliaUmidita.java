@@ -18,5 +18,6 @@ public class SogliaUmidita {
             System.out.println( "Aprire le finestre per dieci minuti.");
         }
         System.out.println("umidità: " + umidità + "%");
+        tastiera.close();
     }
 }
