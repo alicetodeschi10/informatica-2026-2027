@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class App {
+public class PiscinaComunale {
     public static void main(String[] args) throws Exception {
         Scanner tastiera;
         tastiera = new Scanner(System.in);
@@ -9,20 +9,19 @@ public class App {
         tastiera.nextLine();
         System.out.println("è un giorno festivo?");
         String giorno =  tastiera.nextLine();
-        boolean festivo = giorno.equalsIgnoreCase("si");
         if (anni < 6 && anni >= 0) {
             prezzo =0;
         }
-        else if (anni>=6 && anni<=17){
+        else if (anni<=17){
             prezzo = 15;
         }
-        else if (anni>=18 && anni<=64){
+        else if (anni<=64){
             prezzo = 8;
         }
         else if (anni>=65) {
             prezzo = 4;
         }
-        if (festivo) {
+        if (giorno.equalsIgnoreCase("si") && anni > 6 ) {
             prezzo += 2;
         }
         System.out.println("prezzo: " + prezzo);
