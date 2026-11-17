@@ -28,6 +28,6 @@ public class SchedaPostazione {
         String SistemaOperativo = tastiera.nextLine();
         double percentualeLibera = (CAPACITA_DISCHI/100)*spazioLibero;
         System.out.println("postazione: "+ postazione + "\nmemoria: "+ memoria + "\nspazio libero: " + spazioLibero + " su " + CAPACITA_DISCHI + "\npercentuale libera: " + percentualeLibera + "\nsistema operativo: "+ SistemaOperativo + "\nnome: " + nome + "\ncognome: " + cognome);
-
+        tastiera.close();
     }
 }
