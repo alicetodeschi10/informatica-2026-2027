@@ -12,7 +12,7 @@ public class AmmissioneGara {
         System.out.print("Il certificato medico è stato presentato? (true/false): ");
         boolean certificatoPresentato = tastiera.nextBoolean();
         System.out.print("L'atleta è il capitano della squadra? (true/false): ");
-        boolean isCapitano = tastiera.nextBoolean();
+        boolean Capitano = tastiera.nextBoolean();
         double percentualeFrequenza = 0.0;
         if (allenamentiPrevisti > 0) {
             percentualeFrequenza = ((double) allenamentiSvolti / allenamentiPrevisti) * 100;
@@ -21,7 +21,7 @@ public class AmmissioneGara {
         boolean frequenzaSufficiente = percentualeFrequenza >= 70.0;
         boolean requisitiOrdinariSoddisfatti = etaSufficiente && certificatoPresentato && frequenzaSufficiente;
 
-        boolean ammessoComeCapitano = isCapitano && etaSufficiente && certificatoPresentato && !frequenzaSufficiente;
+        boolean ammessoComeCapitano = Capitano && etaSufficiente && certificatoPresentato && !frequenzaSufficiente;
 
         boolean esito = requisitiOrdinariSoddisfatti || ammessoComeCapitano;
 
